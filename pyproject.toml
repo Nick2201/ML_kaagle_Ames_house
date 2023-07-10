@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ml-kaagle-ames-house"
+version = "0.1.0"
+description = ""
+authors = ["ni"]
+readme = "README.md"
+packages = [{include = "ml_kaagle_ames_house"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cookiecutter = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
